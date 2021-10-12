@@ -1,0 +1,35 @@
+
+
+*{
+    margin:0;
+    padding 0;
+    box-sizing: border-box;
+    font-family:"poppines,sans-serif";
+}
+body{
+    background:lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.contrainer{
+    position:relative;
+    width:100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background:#fff;
+    margin 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55 px rgba(0.0.0.0.1);
+    }
+    
+    .contrainer .left_side {position: relative;
+        background-color: #003147;
+    padding:40px
+    }
+    .contrainer .right_side {position: relative;
+        background-color: #fff;
+    padding:40px
+    }
